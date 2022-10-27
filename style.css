@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+
+*{
+    font-family:sans-serif;
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #556270;
+    width:100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo{
+    margin-bottom: 24px;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #4ecdc4;
+    font-family: 'Concert One', cursive;
+    font-size: 400%;
+}
+
+.container-input{
+    max-width: 400px;
+    margin: 14px 0;
+}
+
+.container-input span{
+    color: white;
+    font-size: 22px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.slider{
+    -webkit-appearance: none;
+    width: 100%;
+    border-radius: 5px;
+    background: gray;
+    height: 18px;
+    outline: none;
+    margin-top: 8px;
+}
+
+.button-cta{
+    height: 40px;
+    background-color: #c44d58;
+    border:0;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 40px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.container-password{
+    max-width: 480px;
+    margin: 14px 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.title{
+    text-align: center;
+    color: white;
+    font-size: 28px;
+    margin-top: 24px;
+    margin-bottom: 8px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.password{
+    height: 60px;
+    background-color: #c44d58;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border:1px solid #ff6b6b;
+    transition: transform 0.5s;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.password:hover{
+    transform: scale(1.05);
+}
+
+.tooltip{
+    color:white;
+    position: relative;
+    top:20px;
+    padding: 6px 8px;
+    background: #ff6b6b;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 6px;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.hide{
+    display: none;
+}
+
+.container-password:hover .tooltip{
+    visibility: visible;
+    bottom:50px;
+    opacity:1;
+}
