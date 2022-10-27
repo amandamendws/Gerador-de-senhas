@@ -1,6 +1,5 @@
 # Gerador de Senhas
 
-
 <img src="assets/tela.png" alt="tela inicial">
 
 > Projeto Web Page para criação de senhas aleatórias com 5 até 25 caracteres, incluindo letras maiusculas e minusculas, números e teclas especiais.
@@ -15,6 +14,7 @@
 
 <img src="assets/copia.png" alt="alerta de cópia feita">
 
+## Site na integra
 
 ## 😄 Agradecimento
 
